@@ -49,6 +49,8 @@
 		ED1884391CD0B07F00F9ACD1 /* Options Button.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1884181CD0B07F00F9ACD1 /* Options Button.png */; };
 		ED18843A1CD0B07F00F9ACD1 /* Quit Button.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1884191CD0B07F00F9ACD1 /* Quit Button.png */; };
 		ED18843B1CD0B07F00F9ACD1 /* Start Game Button.png in Resources */ = {isa = PBXBuildFile; fileRef = ED18841A1CD0B07F00F9ACD1 /* Start Game Button.png */; };
+		ED18843E1CD0B2BA00F9ACD1 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED18843D1CD0B2BA00F9ACD1 /* GameplayScene.sks */; };
+		ED93B6401CD882EA00E160A2 /* 3 - Player in Resources */ = {isa = PBXBuildFile; fileRef = ED93B63F1CD882EA00E160A2 /* 3 - Player */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +119,8 @@
 		ED1884181CD0B07F00F9ACD1 /* Options Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Options Button.png"; sourceTree = "<group>"; };
 		ED1884191CD0B07F00F9ACD1 /* Quit Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quit Button.png"; sourceTree = "<group>"; };
 		ED18841A1CD0B07F00F9ACD1 /* Start Game Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Game Button.png"; sourceTree = "<group>"; };
+		ED18843D1CD0B2BA00F9ACD1 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
+		ED93B63F1CD882EA00E160A2 /* 3 - Player */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "3 - Player"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +151,9 @@
 		ED1883AF1CD09D0900F9ACD1 = {
 			isa = PBXGroup;
 			children = (
-				ED1883ED1CD0AFA500F9ACD1 /* Assets */,
+				ED18843C1CD0B29900F9ACD1 /* Scenes */,
 				ED1883BA1CD09D0900F9ACD1 /* Bruni The Bear */,
+				ED1883ED1CD0AFA500F9ACD1 /* Assets */,
 				ED1883D31CD09D0900F9ACD1 /* Bruni The BearTests */,
 				ED1883DE1CD09D0900F9ACD1 /* Bruni The BearUITests */,
 				ED1883B91CD09D0900F9ACD1 /* Products */,
@@ -201,6 +206,7 @@
 		ED1883ED1CD0AFA500F9ACD1 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				ED93B63F1CD882EA00E160A2 /* 3 - Player */,
 				ED1883F01CD0B07F00F9ACD1 /* 1 - Pause Panel And Buttons */,
 				ED1883F51CD0B07F00F9ACD1 /* 2 - Collectables */,
 				ED1883F81CD0B07F00F9ACD1 /* 4 - Clouds */,
@@ -316,6 +322,14 @@
 				ED18841A1CD0B07F00F9ACD1 /* Start Game Button.png */,
 			);
 			path = "3 - Main Menu Buttons";
+			sourceTree = "<group>";
+		};
+		ED18843C1CD0B29900F9ACD1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				ED18843D1CD0B2BA00F9ACD1 /* GameplayScene.sks */,
+			);
+			name = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,6 +461,7 @@
 				ED1884231CD0B07F00F9ACD1 /* Cloud 3.png in Resources */,
 				ED1883C71CD09D0900F9ACD1 /* Assets.xcassets in Resources */,
 				ED18843A1CD0B07F00F9ACD1 /* Quit Button.png in Resources */,
+				ED18843E1CD0B2BA00F9ACD1 /* GameplayScene.sks in Resources */,
 				ED1883C51CD09D0900F9ACD1 /* Main.storyboard in Resources */,
 				ED1884311CD0B07F00F9ACD1 /* Back Button.png in Resources */,
 				ED1884321CD0B07F00F9ACD1 /* Check Sign.png in Resources */,
@@ -460,6 +475,7 @@
 				ED1884381CD0B07F00F9ACD1 /* Music On Button.png in Resources */,
 				ED18842C1CD0B07F00F9ACD1 /* Menu BG.png in Resources */,
 				ED1884211CD0B07F00F9ACD1 /* Cloud 1.png in Resources */,
+				ED93B6401CD882EA00E160A2 /* 3 - Player in Resources */,
 				ED1884361CD0B07F00F9ACD1 /* Highscore Button.png in Resources */,
 				ED18843B1CD0B07F00F9ACD1 /* Start Game Button.png in Resources */,
 			);
@@ -715,6 +731,7 @@
 				ED1883E61CD09D0900F9ACD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED1883E71CD09D0900F9ACD1 /* Build configuration list for PBXNativeTarget "Bruni The BearTests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +740,7 @@
 				ED1883E91CD09D0900F9ACD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED1883EA1CD09D0900F9ACD1 /* Build configuration list for PBXNativeTarget "Bruni The BearUITests" */ = {
 			isa = XCConfigurationList;
@@ -731,6 +749,7 @@
 				ED1883EC1CD09D0900F9ACD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
