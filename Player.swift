@@ -16,15 +16,15 @@ class Player: SKSpriteNode {
     
     
     func initializePlayerAndAnimation(){
-        textureAtlas = SKTextureAtlas(named: "Player")
+        /*textureAtlas = SKTextureAtlas(named: "Player")
         
         for i in 2...textureAtlas.textureNames.count {
             let name = "Player \(i)"
-            playerAnimation.append(SKTexture(imageNamed: name))
-            //playerAnimation.append(textureAtlas.textureNamed(name))
+            //playerAnimation.append(SKTexture(imageNamed: name))
+            playerAnimation.append(textureAtlas.textureNamed(name))
         }
         
-        animatePlayerAction = SKAction.animateWithTextures(playerAnimation, timePerFrame: 0.08, resize: true, restore: false)
+        animatePlayerAction = SKAction.animateWithTextures(playerAnimation, timePerFrame: 0.08, resize: true, restore: false)*/
     }
     
     func animatePlayer(moveLeft moveLeft: Bool){

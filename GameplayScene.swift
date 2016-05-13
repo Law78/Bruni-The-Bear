@@ -14,12 +14,16 @@ class GameplayScene: SKScene {
     var bg2: BGClass?
     var bg3: BGClass?
     
+    var cloudsController = CloudsController()
     var mainCamera: SKCameraNode?
     var player: Player?
     var canMove: Bool = false
     var moveLeft: Bool = false
     
     var center: CGFloat?
+    let distanceBetweenClouds = CGFloat(240)
+    let minX = CGFloat(85)
+    let maxX = CGFloat(392)
     
     override func didMoveToView(view: SKView) {
         initializeVariables()
@@ -27,6 +31,7 @@ class GameplayScene: SKScene {
     
     override func update(currentTime: NSTimeInterval) {
         moveCamera()
+        //moveBackground()
         managePlayer()
         manageBackgrounds()
     }
@@ -61,6 +66,7 @@ class GameplayScene: SKScene {
         
         mainCamera = self.childNodeWithName("Main Camera") as? SKCameraNode!
         getBackgrounds()
+        cloudsController.arrangeCloudsInScene(self.scene!, distanceBetweenClouds: distanceBetweenClouds, center: center!, minX: minX, maxX: maxX, initialClouds: true)
     }
     
     func getBackgrounds(){
@@ -83,6 +89,14 @@ class GameplayScene: SKScene {
         bg1?.moveBG(mainCamera!)
         bg2?.moveBG(mainCamera!)
         bg3?.moveBG(mainCamera!)
-        print(bg1?.position.y)
+        //print(bg1?.position.y)
+    }
+    
+    // Aggiunte Lorenzo
+    
+    func moveBackground(){
+        bg1?.moveBackground()
+        bg2?.moveBackground()
+        bg3?.moveBackground()
     }
 }

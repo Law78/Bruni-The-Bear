@@ -16,4 +16,12 @@ class BGClass: SKSpriteNode{
         }
     }
     
+    func moveBackground(){
+        if (self.position.y) <= (self.size.height * (-2)){
+            self.position.y = self.size.height - 10
+        } else {
+          self.position.y -= 8
+        }
+        print(self.position.y)
+    }
 }

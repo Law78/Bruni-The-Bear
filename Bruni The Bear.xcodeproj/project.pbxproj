@@ -50,10 +50,10 @@
 		ED18843A1CD0B07F00F9ACD1 /* Quit Button.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1884191CD0B07F00F9ACD1 /* Quit Button.png */; };
 		ED18843B1CD0B07F00F9ACD1 /* Start Game Button.png in Resources */ = {isa = PBXBuildFile; fileRef = ED18841A1CD0B07F00F9ACD1 /* Start Game Button.png */; };
 		ED18843E1CD0B2BA00F9ACD1 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED18843D1CD0B2BA00F9ACD1 /* GameplayScene.sks */; };
+		ED223A6A1CE5E09300086C85 /* CloudsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED223A691CE5E09300086C85 /* CloudsController.swift */; };
 		ED709EBF1CDCC63F0069F81E /* BGClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED709EBE1CDCC63F0069F81E /* BGClass.swift */; };
 		ED93B6441CD883E600E160A2 /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93B6431CD883E600E160A2 /* GameplayScene.swift */; };
 		ED93B6471CD885FB00E160A2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93B6461CD885FB00E160A2 /* Player.swift */; };
-		ED93B65C1CD8B32E00E160A2 /* Player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ED93B65B1CD8B32E00E160A2 /* Player.atlas */; };
 		EDB8E7F81CD8B5DA002F8C41 /* Player 1.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F01CD8B5DA002F8C41 /* Player 1.png */; };
 		EDB8E7F91CD8B5DA002F8C41 /* Player 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F11CD8B5DA002F8C41 /* Player 2.png */; };
 		EDB8E7FA1CD8B5DA002F8C41 /* Player 3.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F21CD8B5DA002F8C41 /* Player 3.png */; };
@@ -131,10 +131,10 @@
 		ED1884191CD0B07F00F9ACD1 /* Quit Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quit Button.png"; sourceTree = "<group>"; };
 		ED18841A1CD0B07F00F9ACD1 /* Start Game Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Game Button.png"; sourceTree = "<group>"; };
 		ED18843D1CD0B2BA00F9ACD1 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
+		ED223A691CE5E09300086C85 /* CloudsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudsController.swift; sourceTree = "<group>"; };
 		ED709EBE1CDCC63F0069F81E /* BGClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGClass.swift; sourceTree = "<group>"; };
 		ED93B6431CD883E600E160A2 /* GameplayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
 		ED93B6461CD885FB00E160A2 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		ED93B65B1CD8B32E00E160A2 /* Player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Player.atlas; sourceTree = "<group>"; };
 		EDB8E7F01CD8B5DA002F8C41 /* Player 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 1.png"; sourceTree = "<group>"; };
 		EDB8E7F11CD8B5DA002F8C41 /* Player 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 2.png"; sourceTree = "<group>"; };
 		EDB8E7F21CD8B5DA002F8C41 /* Player 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 3.png"; sourceTree = "<group>"; };
@@ -230,7 +230,6 @@
 			isa = PBXGroup;
 			children = (
 				EDB8E7EF1CD8B5DA002F8C41 /* Player */,
-				ED93B65B1CD8B32E00E160A2 /* Player.atlas */,
 				ED1883F01CD0B07F00F9ACD1 /* 1 - Pause Panel And Buttons */,
 				ED1883F51CD0B07F00F9ACD1 /* 2 - Collectables */,
 				ED1883F81CD0B07F00F9ACD1 /* 4 - Clouds */,
@@ -356,6 +355,14 @@
 			name = Scenes;
 			sourceTree = "<group>";
 		};
+		ED223A681CE5E07900086C85 /* Clouds Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED223A691CE5E09300086C85 /* CloudsController.swift */,
+			);
+			name = "Clouds Classes";
+			sourceTree = "<group>";
+		};
 		ED709EBD1CDCC5E60069F81E /* Background Class */ = {
 			isa = PBXGroup;
 			children = (
@@ -368,6 +375,7 @@
 			isa = PBXGroup;
 			children = (
 				ED709EBD1CDCC5E60069F81E /* Background Class */,
+				ED223A681CE5E07900086C85 /* Clouds Classes */,
 				ED93B6451CD885ED00E160A2 /* Player Class */,
 				ED93B6421CD883CB00E160A2 /* Scene Classes */,
 			);
@@ -548,7 +556,6 @@
 				ED1884201CD0B07F00F9ACD1 /* Life.png in Resources */,
 				ED18841E1CD0B07F00F9ACD1 /* Show Score.png in Resources */,
 				ED1884351CD0B07F00F9ACD1 /* Medium Button.png in Resources */,
-				ED93B65C1CD8B32E00E160A2 /* Player.atlas in Resources */,
 				ED1884301CD0B07F00F9ACD1 /* Score.png in Resources */,
 				ED1884331CD0B07F00F9ACD1 /* Easy Button.png in Resources */,
 				ED18841C1CD0B07F00F9ACD1 /* Quit Button 2.png in Resources */,
@@ -585,6 +592,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED93B6441CD883E600E160A2 /* GameplayScene.swift in Sources */,
+				ED223A6A1CE5E09300086C85 /* CloudsController.swift in Sources */,
 				ED1883C01CD09D0900F9ACD1 /* GameScene.swift in Sources */,
 				ED1883C21CD09D0900F9ACD1 /* GameViewController.swift in Sources */,
 				ED93B6471CD885FB00E160A2 /* Player.swift in Sources */,
@@ -733,6 +741,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lorenzofranceschini.Bruni-The-Bear";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -744,6 +753,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lorenzofranceschini.Bruni-The-Bear";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
