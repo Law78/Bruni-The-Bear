@@ -50,7 +50,18 @@
 		ED18843A1CD0B07F00F9ACD1 /* Quit Button.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1884191CD0B07F00F9ACD1 /* Quit Button.png */; };
 		ED18843B1CD0B07F00F9ACD1 /* Start Game Button.png in Resources */ = {isa = PBXBuildFile; fileRef = ED18841A1CD0B07F00F9ACD1 /* Start Game Button.png */; };
 		ED18843E1CD0B2BA00F9ACD1 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED18843D1CD0B2BA00F9ACD1 /* GameplayScene.sks */; };
-		ED93B6401CD882EA00E160A2 /* 3 - Player in Resources */ = {isa = PBXBuildFile; fileRef = ED93B63F1CD882EA00E160A2 /* 3 - Player */; };
+		ED709EBF1CDCC63F0069F81E /* BGClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED709EBE1CDCC63F0069F81E /* BGClass.swift */; };
+		ED93B6441CD883E600E160A2 /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93B6431CD883E600E160A2 /* GameplayScene.swift */; };
+		ED93B6471CD885FB00E160A2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93B6461CD885FB00E160A2 /* Player.swift */; };
+		ED93B65C1CD8B32E00E160A2 /* Player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ED93B65B1CD8B32E00E160A2 /* Player.atlas */; };
+		EDB8E7F81CD8B5DA002F8C41 /* Player 1.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F01CD8B5DA002F8C41 /* Player 1.png */; };
+		EDB8E7F91CD8B5DA002F8C41 /* Player 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F11CD8B5DA002F8C41 /* Player 2.png */; };
+		EDB8E7FA1CD8B5DA002F8C41 /* Player 3.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F21CD8B5DA002F8C41 /* Player 3.png */; };
+		EDB8E7FB1CD8B5DA002F8C41 /* Player 4.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F31CD8B5DA002F8C41 /* Player 4.png */; };
+		EDB8E7FC1CD8B5DA002F8C41 /* Player 5.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F41CD8B5DA002F8C41 /* Player 5.png */; };
+		EDB8E7FD1CD8B5DA002F8C41 /* Player 6.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F51CD8B5DA002F8C41 /* Player 6.png */; };
+		EDB8E7FE1CD8B5DA002F8C41 /* Player 7.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F61CD8B5DA002F8C41 /* Player 7.png */; };
+		EDB8E7FF1CD8B5DA002F8C41 /* Player 8.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F71CD8B5DA002F8C41 /* Player 8.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,7 +131,18 @@
 		ED1884191CD0B07F00F9ACD1 /* Quit Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quit Button.png"; sourceTree = "<group>"; };
 		ED18841A1CD0B07F00F9ACD1 /* Start Game Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Game Button.png"; sourceTree = "<group>"; };
 		ED18843D1CD0B2BA00F9ACD1 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
-		ED93B63F1CD882EA00E160A2 /* 3 - Player */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "3 - Player"; sourceTree = "<group>"; };
+		ED709EBE1CDCC63F0069F81E /* BGClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGClass.swift; sourceTree = "<group>"; };
+		ED93B6431CD883E600E160A2 /* GameplayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
+		ED93B6461CD885FB00E160A2 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		ED93B65B1CD8B32E00E160A2 /* Player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Player.atlas; sourceTree = "<group>"; };
+		EDB8E7F01CD8B5DA002F8C41 /* Player 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 1.png"; sourceTree = "<group>"; };
+		EDB8E7F11CD8B5DA002F8C41 /* Player 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 2.png"; sourceTree = "<group>"; };
+		EDB8E7F21CD8B5DA002F8C41 /* Player 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 3.png"; sourceTree = "<group>"; };
+		EDB8E7F31CD8B5DA002F8C41 /* Player 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 4.png"; sourceTree = "<group>"; };
+		EDB8E7F41CD8B5DA002F8C41 /* Player 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 5.png"; sourceTree = "<group>"; };
+		EDB8E7F51CD8B5DA002F8C41 /* Player 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 6.png"; sourceTree = "<group>"; };
+		EDB8E7F61CD8B5DA002F8C41 /* Player 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 7.png"; sourceTree = "<group>"; };
+		EDB8E7F71CD8B5DA002F8C41 /* Player 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 8.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +173,7 @@
 		ED1883AF1CD09D0900F9ACD1 = {
 			isa = PBXGroup;
 			children = (
+				ED93B6411CD883BD00E160A2 /* Game Classes */,
 				ED18843C1CD0B29900F9ACD1 /* Scenes */,
 				ED1883BA1CD09D0900F9ACD1 /* Bruni The Bear */,
 				ED1883ED1CD0AFA500F9ACD1 /* Assets */,
@@ -206,7 +229,8 @@
 		ED1883ED1CD0AFA500F9ACD1 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				ED93B63F1CD882EA00E160A2 /* 3 - Player */,
+				EDB8E7EF1CD8B5DA002F8C41 /* Player */,
+				ED93B65B1CD8B32E00E160A2 /* Player.atlas */,
 				ED1883F01CD0B07F00F9ACD1 /* 1 - Pause Panel And Buttons */,
 				ED1883F51CD0B07F00F9ACD1 /* 2 - Collectables */,
 				ED1883F81CD0B07F00F9ACD1 /* 4 - Clouds */,
@@ -332,6 +356,56 @@
 			name = Scenes;
 			sourceTree = "<group>";
 		};
+		ED709EBD1CDCC5E60069F81E /* Background Class */ = {
+			isa = PBXGroup;
+			children = (
+				ED709EBE1CDCC63F0069F81E /* BGClass.swift */,
+			);
+			name = "Background Class";
+			sourceTree = "<group>";
+		};
+		ED93B6411CD883BD00E160A2 /* Game Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED709EBD1CDCC5E60069F81E /* Background Class */,
+				ED93B6451CD885ED00E160A2 /* Player Class */,
+				ED93B6421CD883CB00E160A2 /* Scene Classes */,
+			);
+			name = "Game Classes";
+			sourceTree = "<group>";
+		};
+		ED93B6421CD883CB00E160A2 /* Scene Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED93B6431CD883E600E160A2 /* GameplayScene.swift */,
+			);
+			name = "Scene Classes";
+			sourceTree = "<group>";
+		};
+		ED93B6451CD885ED00E160A2 /* Player Class */ = {
+			isa = PBXGroup;
+			children = (
+				ED93B6461CD885FB00E160A2 /* Player.swift */,
+			);
+			name = "Player Class";
+			sourceTree = "<group>";
+		};
+		EDB8E7EF1CD8B5DA002F8C41 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8E7F01CD8B5DA002F8C41 /* Player 1.png */,
+				EDB8E7F11CD8B5DA002F8C41 /* Player 2.png */,
+				EDB8E7F21CD8B5DA002F8C41 /* Player 3.png */,
+				EDB8E7F31CD8B5DA002F8C41 /* Player 4.png */,
+				EDB8E7F41CD8B5DA002F8C41 /* Player 5.png */,
+				EDB8E7F51CD8B5DA002F8C41 /* Player 6.png */,
+				EDB8E7F61CD8B5DA002F8C41 /* Player 7.png */,
+				EDB8E7F71CD8B5DA002F8C41 /* Player 8.png */,
+			);
+			name = Player;
+			path = "3 - Player";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -440,10 +514,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED1884281CD0B07F00F9ACD1 /* Coin Sound.wav in Resources */,
+				EDB8E7FE1CD8B5DA002F8C41 /* Player 7.png in Resources */,
 				ED1884291CD0B07F00F9ACD1 /* Life Sound.wav in Resources */,
 				ED1884241CD0B07F00F9ACD1 /* Dark Cloud.png in Resources */,
 				ED18842F1CD0B07F00F9ACD1 /* Ready.png in Resources */,
 				ED18842D1CD0B07F00F9ACD1 /* Options BG.png in Resources */,
+				EDB8E7FA1CD8B5DA002F8C41 /* Player 3.png in Resources */,
 				ED1884391CD0B07F00F9ACD1 /* Options Button.png in Resources */,
 				ED1884341CD0B07F00F9ACD1 /* Hard Button.png in Resources */,
 				ED18841F1CD0B07F00F9ACD1 /* Coin.png in Resources */,
@@ -455,12 +531,15 @@
 				ED1883BE1CD09D0900F9ACD1 /* GameScene.sks in Resources */,
 				ED1884271CD0B07F00F9ACD1 /* Click Sound.wav in Resources */,
 				ED1884251CD0B07F00F9ACD1 /* blow.ttf in Resources */,
+				EDB8E7FD1CD8B5DA002F8C41 /* Player 6.png in Resources */,
+				EDB8E7FC1CD8B5DA002F8C41 /* Player 5.png in Resources */,
 				ED1884371CD0B07F00F9ACD1 /* Music Off Button.png in Resources */,
 				ED18842E1CD0B07F00F9ACD1 /* Pause Button.png in Resources */,
 				ED1883CA1CD09D0900F9ACD1 /* LaunchScreen.storyboard in Resources */,
 				ED1884231CD0B07F00F9ACD1 /* Cloud 3.png in Resources */,
 				ED1883C71CD09D0900F9ACD1 /* Assets.xcassets in Resources */,
 				ED18843A1CD0B07F00F9ACD1 /* Quit Button.png in Resources */,
+				EDB8E7FB1CD8B5DA002F8C41 /* Player 4.png in Resources */,
 				ED18843E1CD0B2BA00F9ACD1 /* GameplayScene.sks in Resources */,
 				ED1883C51CD09D0900F9ACD1 /* Main.storyboard in Resources */,
 				ED1884311CD0B07F00F9ACD1 /* Back Button.png in Resources */,
@@ -469,13 +548,16 @@
 				ED1884201CD0B07F00F9ACD1 /* Life.png in Resources */,
 				ED18841E1CD0B07F00F9ACD1 /* Show Score.png in Resources */,
 				ED1884351CD0B07F00F9ACD1 /* Medium Button.png in Resources */,
+				ED93B65C1CD8B32E00E160A2 /* Player.atlas in Resources */,
 				ED1884301CD0B07F00F9ACD1 /* Score.png in Resources */,
 				ED1884331CD0B07F00F9ACD1 /* Easy Button.png in Resources */,
 				ED18841C1CD0B07F00F9ACD1 /* Quit Button 2.png in Resources */,
 				ED1884381CD0B07F00F9ACD1 /* Music On Button.png in Resources */,
 				ED18842C1CD0B07F00F9ACD1 /* Menu BG.png in Resources */,
+				EDB8E7F91CD8B5DA002F8C41 /* Player 2.png in Resources */,
 				ED1884211CD0B07F00F9ACD1 /* Cloud 1.png in Resources */,
-				ED93B6401CD882EA00E160A2 /* 3 - Player in Resources */,
+				EDB8E7F81CD8B5DA002F8C41 /* Player 1.png in Resources */,
+				EDB8E7FF1CD8B5DA002F8C41 /* Player 8.png in Resources */,
 				ED1884361CD0B07F00F9ACD1 /* Highscore Button.png in Resources */,
 				ED18843B1CD0B07F00F9ACD1 /* Start Game Button.png in Resources */,
 			);
@@ -502,9 +584,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED93B6441CD883E600E160A2 /* GameplayScene.swift in Sources */,
 				ED1883C01CD09D0900F9ACD1 /* GameScene.swift in Sources */,
 				ED1883C21CD09D0900F9ACD1 /* GameViewController.swift in Sources */,
+				ED93B6471CD885FB00E160A2 /* Player.swift in Sources */,
 				ED1883BC1CD09D0900F9ACD1 /* AppDelegate.swift in Sources */,
+				ED709EBF1CDCC63F0069F81E /* BGClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
