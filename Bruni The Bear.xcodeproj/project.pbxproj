@@ -52,6 +52,8 @@
 		ED18843E1CD0B2BA00F9ACD1 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED18843D1CD0B2BA00F9ACD1 /* GameplayScene.sks */; };
 		ED223A6A1CE5E09300086C85 /* CloudsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED223A691CE5E09300086C85 /* CloudsController.swift */; };
 		ED332DC51D0A9C5F00C2F266 /* OptionScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED332DC41D0A9C5F00C2F266 /* OptionScene.sks */; };
+		ED332DC91D0A9E8800C2F266 /* HighscoreScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332DC81D0A9E8800C2F266 /* HighscoreScene.swift */; };
+		ED332DCB1D0A9EC600C2F266 /* OptionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332DCA1D0A9EC600C2F266 /* OptionScene.swift */; };
 		ED709EBF1CDCC63F0069F81E /* BGClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED709EBE1CDCC63F0069F81E /* BGClass.swift */; };
 		ED93B6441CD883E600E160A2 /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93B6431CD883E600E160A2 /* GameplayScene.swift */; };
 		ED93B6471CD885FB00E160A2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93B6461CD885FB00E160A2 /* Player.swift */; };
@@ -65,7 +67,7 @@
 		EDB8E7FF1CD8B5DA002F8C41 /* Player 8.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F71CD8B5DA002F8C41 /* Player 8.png */; };
 		EDC949EC1D0A8FF500EA0F1E /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EDC949EB1D0A8FF500EA0F1E /* MainMenuScene.sks */; };
 		EDC949EE1D0A956C00EA0F1E /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC949ED1D0A956C00EA0F1E /* MainMenuScene.swift */; };
-		EDC949F01D0A963E00EA0F1E /* HishscoreScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EDC949EF1D0A963E00EA0F1E /* HishscoreScene.sks */; };
+		EDC949F01D0A963E00EA0F1E /* HighscoreScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EDC949EF1D0A963E00EA0F1E /* HighscoreScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +139,8 @@
 		ED18843D1CD0B2BA00F9ACD1 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
 		ED223A691CE5E09300086C85 /* CloudsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudsController.swift; sourceTree = "<group>"; };
 		ED332DC41D0A9C5F00C2F266 /* OptionScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = OptionScene.sks; sourceTree = "<group>"; };
+		ED332DC81D0A9E8800C2F266 /* HighscoreScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighscoreScene.swift; sourceTree = "<group>"; };
+		ED332DCA1D0A9EC600C2F266 /* OptionScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionScene.swift; sourceTree = "<group>"; };
 		ED709EBE1CDCC63F0069F81E /* BGClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGClass.swift; sourceTree = "<group>"; };
 		ED93B6431CD883E600E160A2 /* GameplayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
 		ED93B6461CD885FB00E160A2 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -150,7 +154,7 @@
 		EDB8E7F71CD8B5DA002F8C41 /* Player 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 8.png"; sourceTree = "<group>"; };
 		EDC949EB1D0A8FF500EA0F1E /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
 		EDC949ED1D0A956C00EA0F1E /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
-		EDC949EF1D0A963E00EA0F1E /* HishscoreScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HishscoreScene.sks; sourceTree = "<group>"; };
+		EDC949EF1D0A963E00EA0F1E /* HighscoreScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HighscoreScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -360,7 +364,7 @@
 			children = (
 				ED18843D1CD0B2BA00F9ACD1 /* GameplayScene.sks */,
 				EDC949EB1D0A8FF500EA0F1E /* MainMenuScene.sks */,
-				EDC949EF1D0A963E00EA0F1E /* HishscoreScene.sks */,
+				EDC949EF1D0A963E00EA0F1E /* HighscoreScene.sks */,
 				ED332DC41D0A9C5F00C2F266 /* OptionScene.sks */,
 			);
 			name = Scenes;
@@ -398,6 +402,8 @@
 			children = (
 				EDC949ED1D0A956C00EA0F1E /* MainMenuScene.swift */,
 				ED93B6431CD883E600E160A2 /* GameplayScene.swift */,
+				ED332DC81D0A9E8800C2F266 /* HighscoreScene.swift */,
+				ED332DCA1D0A9EC600C2F266 /* OptionScene.swift */,
 			);
 			name = "Scene Classes";
 			sourceTree = "<group>";
@@ -540,7 +546,7 @@
 				ED18842F1CD0B07F00F9ACD1 /* Ready.png in Resources */,
 				ED18842D1CD0B07F00F9ACD1 /* Options BG.png in Resources */,
 				EDB8E7FA1CD8B5DA002F8C41 /* Player 3.png in Resources */,
-				EDC949F01D0A963E00EA0F1E /* HishscoreScene.sks in Resources */,
+				EDC949F01D0A963E00EA0F1E /* HighscoreScene.sks in Resources */,
 				ED1884391CD0B07F00F9ACD1 /* Options Button.png in Resources */,
 				ED1884341CD0B07F00F9ACD1 /* Hard Button.png in Resources */,
 				ED18841F1CD0B07F00F9ACD1 /* Coin.png in Resources */,
@@ -608,12 +614,14 @@
 			files = (
 				ED93B6441CD883E600E160A2 /* GameplayScene.swift in Sources */,
 				ED223A6A1CE5E09300086C85 /* CloudsController.swift in Sources */,
+				ED332DC91D0A9E8800C2F266 /* HighscoreScene.swift in Sources */,
 				ED1883C01CD09D0900F9ACD1 /* GameScene.OLD.swift in Sources */,
 				ED1883C21CD09D0900F9ACD1 /* GameViewController.swift in Sources */,
 				ED93B6471CD885FB00E160A2 /* Player.swift in Sources */,
 				ED1883BC1CD09D0900F9ACD1 /* AppDelegate.swift in Sources */,
 				EDC949EE1D0A956C00EA0F1E /* MainMenuScene.swift in Sources */,
 				ED709EBF1CDCC63F0069F81E /* BGClass.swift in Sources */,
+				ED332DCB1D0A9EC600C2F266 /* OptionScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
