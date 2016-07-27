@@ -55,6 +55,7 @@
 		ED332DC91D0A9E8800C2F266 /* HighscoreScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332DC81D0A9E8800C2F266 /* HighscoreScene.swift */; };
 		ED332DCB1D0A9EC600C2F266 /* OptionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED332DCA1D0A9EC600C2F266 /* OptionScene.swift */; };
 		ED709EBF1CDCC63F0069F81E /* BGClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED709EBE1CDCC63F0069F81E /* BGClass.swift */; };
+		ED90891C1D0FD912008114C0 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED90891B1D0FD912008114C0 /* Minecraft.ttf */; };
 		ED93B6441CD883E600E160A2 /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93B6431CD883E600E160A2 /* GameplayScene.swift */; };
 		ED93B6471CD885FB00E160A2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93B6461CD885FB00E160A2 /* Player.swift */; };
 		EDB8E7F81CD8B5DA002F8C41 /* Player 1.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F01CD8B5DA002F8C41 /* Player 1.png */; };
@@ -142,6 +143,7 @@
 		ED332DC81D0A9E8800C2F266 /* HighscoreScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighscoreScene.swift; sourceTree = "<group>"; };
 		ED332DCA1D0A9EC600C2F266 /* OptionScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionScene.swift; sourceTree = "<group>"; };
 		ED709EBE1CDCC63F0069F81E /* BGClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGClass.swift; sourceTree = "<group>"; };
+		ED90891B1D0FD912008114C0 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 		ED93B6431CD883E600E160A2 /* GameplayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
 		ED93B6461CD885FB00E160A2 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		EDB8E7F01CD8B5DA002F8C41 /* Player 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 1.png"; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 		ED1883BA1CD09D0900F9ACD1 /* Bruni The Bear */ = {
 			isa = PBXGroup;
 			children = (
+				ED90891B1D0FD912008114C0 /* Minecraft.ttf */,
 				ED1883BB1CD09D0900F9ACD1 /* AppDelegate.swift */,
 				ED1883BD1CD09D0900F9ACD1 /* GameScene_OLD.sks */,
 				ED1883BF1CD09D0900F9ACD1 /* GameScene.OLD.swift */,
@@ -539,6 +542,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED90891C1D0FD912008114C0 /* Minecraft.ttf in Resources */,
 				ED1884281CD0B07F00F9ACD1 /* Coin Sound.wav in Resources */,
 				EDB8E7FE1CD8B5DA002F8C41 /* Player 7.png in Resources */,
 				ED1884291CD0B07F00F9ACD1 /* Life Sound.wav in Resources */,
