@@ -66,6 +66,8 @@
 		EDB8E7FD1CD8B5DA002F8C41 /* Player 6.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F51CD8B5DA002F8C41 /* Player 6.png */; };
 		EDB8E7FE1CD8B5DA002F8C41 /* Player 7.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F61CD8B5DA002F8C41 /* Player 7.png */; };
 		EDB8E7FF1CD8B5DA002F8C41 /* Player 8.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F71CD8B5DA002F8C41 /* Player 8.png */; };
+		EDC82D571D51E5A20042258C /* GameplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC82D561D51E5A20042258C /* GameplayController.swift */; };
+		EDC82D591D51E73E0042258C /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC82D581D51E73E0042258C /* GameManager.swift */; };
 		EDC949EC1D0A8FF500EA0F1E /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EDC949EB1D0A8FF500EA0F1E /* MainMenuScene.sks */; };
 		EDC949EE1D0A956C00EA0F1E /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC949ED1D0A956C00EA0F1E /* MainMenuScene.swift */; };
 		EDC949F01D0A963E00EA0F1E /* HighscoreScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EDC949EF1D0A963E00EA0F1E /* HighscoreScene.sks */; };
@@ -154,6 +156,8 @@
 		EDB8E7F51CD8B5DA002F8C41 /* Player 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 6.png"; sourceTree = "<group>"; };
 		EDB8E7F61CD8B5DA002F8C41 /* Player 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 7.png"; sourceTree = "<group>"; };
 		EDB8E7F71CD8B5DA002F8C41 /* Player 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 8.png"; sourceTree = "<group>"; };
+		EDC82D561D51E5A20042258C /* GameplayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayController.swift; sourceTree = "<group>"; };
+		EDC82D581D51E73E0042258C /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		EDC949EB1D0A8FF500EA0F1E /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
 		EDC949ED1D0A956C00EA0F1E /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 		EDC949EF1D0A963E00EA0F1E /* HighscoreScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HighscoreScene.sks; sourceTree = "<group>"; };
@@ -392,6 +396,7 @@
 		ED93B6411CD883BD00E160A2 /* Game Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EDC82D551D51E5820042258C /* Game Controllers And Managers */,
 				ED709EBD1CDCC5E60069F81E /* Background Class */,
 				ED223A681CE5E07900086C85 /* Clouds Classes */,
 				ED93B6451CD885ED00E160A2 /* Player Class */,
@@ -433,6 +438,15 @@
 			);
 			name = Player;
 			path = "3 - Player";
+			sourceTree = "<group>";
+		};
+		EDC82D551D51E5820042258C /* Game Controllers And Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EDC82D561D51E5A20042258C /* GameplayController.swift */,
+				EDC82D581D51E73E0042258C /* GameManager.swift */,
+			);
+			name = "Game Controllers And Managers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -617,6 +631,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED93B6441CD883E600E160A2 /* GameplayScene.swift in Sources */,
+				EDC82D591D51E73E0042258C /* GameManager.swift in Sources */,
 				ED223A6A1CE5E09300086C85 /* CloudsController.swift in Sources */,
 				ED332DC91D0A9E8800C2F266 /* HighscoreScene.swift in Sources */,
 				ED1883C01CD09D0900F9ACD1 /* GameScene.OLD.swift in Sources */,
@@ -625,6 +640,7 @@
 				ED1883BC1CD09D0900F9ACD1 /* AppDelegate.swift in Sources */,
 				EDC949EE1D0A956C00EA0F1E /* MainMenuScene.swift in Sources */,
 				ED709EBF1CDCC63F0069F81E /* BGClass.swift in Sources */,
+				EDC82D571D51E5A20042258C /* GameplayController.swift in Sources */,
 				ED332DCB1D0A9EC600C2F266 /* OptionScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,7 +13,8 @@ class CloudsController {
     var lastCloudPositionY = CGFloat()
     
     
-    func shuffle(var cloudsArray: [SKSpriteNode]) -> [SKSpriteNode]{
+    // Qui avevo var cloudsArray ma è deprecato per SWIFT 3
+    func shuffle(inout cloudsArray: [SKSpriteNode]) -> [SKSpriteNode]{
         
         /*
             stackoverflow.com/questions/37170203/swift-3-for-loop-with-increment
@@ -95,8 +96,8 @@ class CloudsController {
             clouds.append(darkCloud)
             
         }
-  
-        clouds = shuffle(clouds)
+        // Dopo aver messo inout ho dovuto mettere & a clouds
+        clouds = shuffle(&clouds)
         
         return clouds
     }
@@ -108,7 +109,8 @@ class CloudsController {
         if initialClouds {
             while(clouds[0].name == "Dark Cloud"){
                 // devo rimischiare l'array. Non posso iniziare con una nube nera!!!
-                clouds = shuffle(clouds)
+                // Dopo aver messo inout ho dovuto mettere & a clouds
+                clouds = shuffle(&clouds)
             }
         }
         

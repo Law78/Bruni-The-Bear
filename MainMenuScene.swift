@@ -32,6 +32,9 @@ class MainMenuScene : SKScene{
             }
             
             if nodeAtPoint(location).name == "Start Game"{
+                
+                GameManager.instance.gameStarterdFromMainMenu = true
+                
                 let scene = GameplayScene(fileNamed: "GameplayScene")
                 scene?.scaleMode = .AspectFill
                 self.view?.presentScene(scene!, transition: SKTransition.doorsCloseVerticalWithDuration(1))

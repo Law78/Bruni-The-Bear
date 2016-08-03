@@ -30,8 +30,23 @@ class GameplayScene: SKScene {
     private var pausePanel: SKSpriteNode?
     
     override func didMoveToView(view: SKView) {
+        
         initializeVariables()
         physicsWorld.gravity = CGVectorMake(0, -1.98)
+        
+        // Devo fare queste impostazioni per il font perchè non me lo fa selezionare nella
+        // scena sks :(
+        let scoreLabel = self.mainCamera!.childNodeWithName("Score Text") as? SKLabelNode!
+        scoreLabel?.fontName = "blow"
+        scoreLabel?.fontSize = 28
+        
+        let lifeScoreLabel = self.mainCamera!.childNodeWithName("Life Score") as? SKLabelNode!
+        lifeScoreLabel?.fontName = "blow"
+        lifeScoreLabel?.fontSize = 28
+        
+        let coinScoreLabel = self.mainCamera!.childNodeWithName("Coin Score") as? SKLabelNode!
+        coinScoreLabel?.fontName = "blow"
+        coinScoreLabel?.fontSize = 28
     }
     
     override func update(currentTime: NSTimeInterval) {
@@ -45,6 +60,8 @@ class GameplayScene: SKScene {
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         for touch in touches {
             let location = touch.locationInNode(self)
+            // Verifico che la scena non sia in pausa per far si che il personaggio
+            // risponda ai click solo se la scena è in movimento.
             if self.scene?.paused == false {
                 if location.x > center {
                     moveLeft = false
@@ -56,6 +73,8 @@ class GameplayScene: SKScene {
                 player?.animatePlayer(moveLeft: moveLeft)
             }
             
+            // Verifico che ho cliccato sul pulsante pausa ma verifico anche che la
+            // scena non sia già in pausa.
             if nodeAtPoint(location).name == "Pause" && self.scene?.paused == false {
                 self.scene?.paused = true
                 createPausePanel()
@@ -89,7 +108,11 @@ class GameplayScene: SKScene {
         player?.initializePlayerAndAnimation()
         
         mainCamera = self.childNodeWithName("Main Camera") as? SKCameraNode!
+        
         getBackgrounds()
+        getLabels()
+        GameplayController.instance.initializeVariables()
+        
         cloudsController.arrangeCloudsInScene(self.scene!, distanceBetweenClouds: distanceBetweenClouds, center: center!, minX: minX, maxX: maxX, initialClouds: true)
         
         cameraDistanceBeforeCreatingNewClouds = (mainCamera?.position.y)! - 400
@@ -125,6 +148,12 @@ class GameplayScene: SKScene {
             
             cloudsController.arrangeCloudsInScene(self.scene!, distanceBetweenClouds: distanceBetweenClouds, center: center!, minX: minX, maxX: maxX, initialClouds: false)
         }
+    }
+    
+    func getLabels(){
+        GameplayController.instance.scoreText = self.mainCamera!.childNodeWithName("Score Text") as? SKLabelNode!
+        GameplayController.instance.coinText = self.mainCamera!.childNodeWithName("Coin Score") as? SKLabelNode!
+        GameplayController.instance.lifeText = self.mainCamera!.childNodeWithName("Life Score") as? SKLabelNode!
     }
     
     // Funzione per creare il Pause Panel
