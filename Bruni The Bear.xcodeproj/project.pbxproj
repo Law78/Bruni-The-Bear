@@ -58,6 +58,7 @@
 		ED90891C1D0FD912008114C0 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED90891B1D0FD912008114C0 /* Minecraft.ttf */; };
 		ED93B6441CD883E600E160A2 /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93B6431CD883E600E160A2 /* GameplayScene.swift */; };
 		ED93B6471CD885FB00E160A2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93B6461CD885FB00E160A2 /* Player.swift */; };
+		EDA0A72E1D5466E300D2AB1B /* CollectablesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0A72D1D5466E300D2AB1B /* CollectablesController.swift */; };
 		EDB8E7F81CD8B5DA002F8C41 /* Player 1.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F01CD8B5DA002F8C41 /* Player 1.png */; };
 		EDB8E7F91CD8B5DA002F8C41 /* Player 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F11CD8B5DA002F8C41 /* Player 2.png */; };
 		EDB8E7FA1CD8B5DA002F8C41 /* Player 3.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB8E7F21CD8B5DA002F8C41 /* Player 3.png */; };
@@ -148,6 +149,7 @@
 		ED90891B1D0FD912008114C0 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 		ED93B6431CD883E600E160A2 /* GameplayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
 		ED93B6461CD885FB00E160A2 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		EDA0A72D1D5466E300D2AB1B /* CollectablesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectablesController.swift; sourceTree = "<group>"; };
 		EDB8E7F01CD8B5DA002F8C41 /* Player 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 1.png"; sourceTree = "<group>"; };
 		EDB8E7F11CD8B5DA002F8C41 /* Player 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 2.png"; sourceTree = "<group>"; };
 		EDB8E7F21CD8B5DA002F8C41 /* Player 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 3.png"; sourceTree = "<group>"; };
@@ -377,12 +379,13 @@
 			name = Scenes;
 			sourceTree = "<group>";
 		};
-		ED223A681CE5E07900086C85 /* Clouds Classes */ = {
+		ED223A681CE5E07900086C85 /* Clouds And CollectablesControllers */ = {
 			isa = PBXGroup;
 			children = (
 				ED223A691CE5E09300086C85 /* CloudsController.swift */,
+				EDA0A72D1D5466E300D2AB1B /* CollectablesController.swift */,
 			);
-			name = "Clouds Classes";
+			name = "Clouds And CollectablesControllers";
 			sourceTree = "<group>";
 		};
 		ED709EBD1CDCC5E60069F81E /* Background Class */ = {
@@ -398,7 +401,7 @@
 			children = (
 				EDC82D551D51E5820042258C /* Game Controllers And Managers */,
 				ED709EBD1CDCC5E60069F81E /* Background Class */,
-				ED223A681CE5E07900086C85 /* Clouds Classes */,
+				ED223A681CE5E07900086C85 /* Clouds And CollectablesControllers */,
 				ED93B6451CD885ED00E160A2 /* Player Class */,
 				ED93B6421CD883CB00E160A2 /* Scene Classes */,
 			);
@@ -630,6 +633,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA0A72E1D5466E300D2AB1B /* CollectablesController.swift in Sources */,
 				ED93B6441CD883E600E160A2 /* GameplayScene.swift in Sources */,
 				EDC82D591D51E73E0042258C /* GameManager.swift in Sources */,
 				ED223A6A1CE5E09300086C85 /* CloudsController.swift in Sources */,
